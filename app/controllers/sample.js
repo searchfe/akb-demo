@@ -5,6 +5,10 @@
 
 
 module.exports = async (ctx) => {
+
+    // use component 'redis'
+    await ctx.app.redis.get('redis-key');
+
     ctx.body = await ctx.render(
         'sample',
         {

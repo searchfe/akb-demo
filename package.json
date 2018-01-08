@@ -9,7 +9,7 @@
     "dev": "NODE_ENV=development node index.js"
   },
   "dependencies": {
-    "akb": "^2.0.1",
+    "akb": "~2.0.2",
     "semver": "^5.3.0"
   },
   "devDependencies": {
