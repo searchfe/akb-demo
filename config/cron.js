@@ -15,7 +15,7 @@ module.exports = {
      *
      * @type {string}
      */
-    cronDir: './app/cron',
+    dir: './app/cron',
 
     /**
      * cron tasks
